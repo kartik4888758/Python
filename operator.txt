@@ -1,0 +1,5 @@
+arithmatic relational logical  assignment bitwise identity 
+membership  in and not in
+list[]
+tuple{}
+dictonary
