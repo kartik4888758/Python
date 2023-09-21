@@ -11,11 +11,11 @@ upto = int(input("Enter the number of Fibonacci terms: "))
 # Initialize the first two terms
 a, b = 0, 1
 
-# Check if the input is valid
+
 if upto <= 0:
     print("Please enter a positive integer.")
 else:
-    # Print the first num_terms Fibonacci numbers
+    
     print("Fibonacci Series:")
     for _ in range(upto):
         print(a, end=" ")
