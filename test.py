@@ -20,6 +20,7 @@
 #     print("x and z are not the same object")
 
 # # Define a list of fruits
+
 # fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
 
 # # Check if 'banana' is in the list of fruits
@@ -92,6 +93,5 @@ print(sum)
     
 #     print()
 
-    
     
     

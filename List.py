@@ -28,3 +28,9 @@ print(languages)
 languages.pop()
 languages.pop(2)
 print(languages)
+
+list=[1,2,3]
+print(list[-1])
+
+languages=["C","C++","Python","HTML","Java"]
+languages.
