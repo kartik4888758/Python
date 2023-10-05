@@ -1,3 +1,6 @@
+# LIST []
+# mutable,ordered,allow duplicates
+
 languages=["C","C++","Java"]
 print(languages)
 
@@ -34,3 +37,6 @@ print(list[-1])
 
 languages=["C","C++","Python","HTML","Java"]
 languages.
+
+data="pythonprogramming"
+
