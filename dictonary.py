@@ -23,4 +23,9 @@ print(dict)
 dict.pop("propeller")
 print(dict)
 
+dict["height"]="1.2"
+print(dict)
+
+dict.clear()
+
 
