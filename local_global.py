@@ -1,9 +1,12 @@
-#here variable 'a' is global variable
-a=5;
+global_var = "I am a global variable"
 
-def add():
-# here variable 'b' and 'c' are local variable
-    b=10;
-    c=a+b;
-    print("The sum is",c,".")
-add();
+def example_function():
+    global global_var
+    local_var = "I am a local variable"
+    print(f"Inside the function: global_var = {global_var}, local_var = {local_var}")
+
+    global_var = "Global variable has been modified inside the function"
+
+example_function()
+
+print(f"Outside the function: global_var = {global_var}")

@@ -1,9 +1,6 @@
-# import panda as pd
+# A Panda dataframe is a 2 dimensional array or a table with rows and columns.
 
-# df=pd.read_csv('industry.csv')
-# print(df.to_string())
-# new=df.duplicated()
+import panda as pd
 
-import numpy as np 
-arr = np.array([1,2,3,4,5])
-print(arr)
+df=pd.read_csv('data.csv')
+print(df.to_string())
