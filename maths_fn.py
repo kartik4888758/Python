@@ -32,4 +32,3 @@ sin_val = math.sin(angle)
 cos_val = math.cos(angle)
 print(f"Sine of {angle} is {sin_val}")
 print(f"Cosine of {angle} is {cos_val}")
-ṇ

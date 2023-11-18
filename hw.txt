@@ -1,0 +1,28 @@
+List of Assignments/ Programs to implement
+1. Datatypes
+2. Keywords ( break, continue, range, pass, return, if, else, elif, while, for)
+3. Membership operators
+4. Identity operators
+5. Bitwise operators
+6. String predefined functions
+7. String modules
+8. Date functions
+9. Math functions
+10. user defined recursion function
+11. local and global scope of variable
+12. List functions
+13. aliasing, cloning lists 
+14. Tuple functions
+15. Set functions
+16. dictionary
+17. list comprehension
+18. exception handling
+19. file handling
+20. numpy
+21. panda
+22. matplotlib
+23. seaborn
+24. command line arguments
+25. format operator
+
+NOTE: All the above python programs should be written on blue color practice book

@@ -19,6 +19,6 @@ print(formatted_text)
 repeated_text = "Python " * 3
 print(f"Repeated text: {repeated_text}")
 
-text = "Python is fun"
+text = "Python is HLL"
 substring = text[7:9]
 print(f"Sliced substring: {substring}")
