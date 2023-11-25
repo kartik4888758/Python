@@ -1,17 +1,12 @@
-student_info = ("Alice", 22, "Computer Science", "A")
+#  TUPLE :()
+# immutable,allow duplicates
+#two predefined functions in tuple: count and index
 
-name = student_info[0]
-print(f"Student name: {name}")
+tuple=("apple","mango","grapes","banana","grapes")
+print(tuple)
 
-num_elements = len(student_info)
-print(f"Number of elements in the tuple: {num_elements}")
+a=tuple.count("grapes")
+print(a)
 
-grade_count = student_info.count("A")
-print(f"Count of 'A' grades: {grade_count}")
-
-major_index = student_info.index("Computer Science")
-print(f"Index of 'Computer Science': {major_index}")
-
-courses = ("Math", "History", "English")
-combined_info = student_info + courses
-print(f"Combined tuple: {combined_info}")
+b=tuple.index("banana")
+print(b)

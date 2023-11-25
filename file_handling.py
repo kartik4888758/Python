@@ -1,25 +1,30 @@
+# file=open("test.txt","x")
 
-fp = "ipp.txt"
+#reading from file
+file1=open("test.txt","r")
+read=file1.read()
+print(read)
 
+#closing file
+file1.close()
 
-file = open(fp, 'w')
-file.write("Hello, this is a sample file.")
-file.close()
-print("Content written to",fp, "successfully.")
+#writing into file
+file2=open("test2.txt","w")
+file2.write('Fruits are good sources of antioxidants.')
+file2=open("test2.txt","r")
+reader=file2.read()
+print(reader)
 
-file = open(fp, 'r')
-content = file.read()
-file.close()
-print("Content read from ",fp,":",content)
+#appending into existing file
+file2=open("test2.txt","w")
+text_append="Fruits are good for immunity building."
+file2.write(text_append)
+file2=open("test2.txt","r")
+reader1=file2.read()
+print(reader1)
+#closing after operations
+file1.close()
+file2.close()
 
-
-file = open(fp, 'a')
-file.write("\nThis is an appended line.")
-file.close()
-print("Content appended to ",fp," successfully.")
-
-
-file = open(fp, 'r')
-updated_content = file.read()
-file.close()
-print("Updated content read from ",fp," : ",updated_content)
+    
+    

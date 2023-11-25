@@ -1,6 +1,7 @@
 #DICTONARY represented using {} ,but contain values in kay(pair of values)
 # ordered and mutable
 # duplicates not allowed
+#clear,copy,get,po,popitems
 
 dict={"brand":"BMW","model":"M3 series","cost":"8500000"}
 print(dict)

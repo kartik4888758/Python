@@ -1,5 +1,7 @@
 # LIST []
 # mutable,ordered,allow duplicates
+# Various predefined functions
+#count,index,clear,extend,pop,copy,sort,reverse
 
 languages=["C","C++","Java"]
 print(languages)
